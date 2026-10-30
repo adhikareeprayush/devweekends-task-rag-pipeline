@@ -124,10 +124,6 @@ Both do similarity search over vectors, but they are different kinds of tool.
 
 A production system separates the **offline ingestion path** (runs when documents change) from the **online query path** (runs for every user question), so each can scale independently.
 
-> Paste your image below, or render the Mermaid diagram in Section 6.
-
-![RAG architecture](rag_architecture.png)
-
 **Components**
 
 | Component                   | Role                                               | How it scales                                        |
